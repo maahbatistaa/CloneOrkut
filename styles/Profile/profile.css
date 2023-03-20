@@ -67,16 +67,17 @@ header.menu{
 header > nav {
     color: #FFFFFF;
     display: flex;
-    border: 1px solid blue;
-    
+
+    width: 90%;
+    margin: auto;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
 }
 
-header > nav > #title > h1{
-    font-size: 40px;
+header > nav > #title > h1 {
+    font-size: 45px;
 }
 
-header > nav > #hamburguer > label{
+header > nav > #hamburguer > label {
     font-size: 30px;
 }
